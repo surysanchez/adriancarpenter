@@ -1,11 +1,12 @@
 import React from 'react'
+import {motion} from "framer-motion"
 
 function Home() {
   return (
-    <div>
-        <h1>Hi, I'm Adrian</h1>
-        <img src="https://i.imgur.com/LROIeuQ.jpeg" style={{width:"800px", display:'flex'}} alt="" />
-    </div>
+  <div className='course'> 
+    <motion.div className='box' initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration: 2, delay:2}}></motion.div>
+  </div>
+       
   )
 }
 

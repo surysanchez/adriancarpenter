@@ -2,15 +2,16 @@ import React from 'react';
 
 import './app.scss'
 import './App.css';
-import { Navbar } from 'react-bootstrap';
+
 import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
 
 
 
 const App = () => (
   <div>
     {/* <section>
-   <Navbar/>
+<Navbar/>
     </section> */}
     <section>
    <Home/>
