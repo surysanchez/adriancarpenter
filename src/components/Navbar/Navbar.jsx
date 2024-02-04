@@ -1,17 +1,18 @@
 import './Navbar.scss'
+import {motion} from "framer-motion"
 import {
     MDBIcon,
     MDBBtn
   } from 'mdb-react-ui-kit';
+import Sidebar from '../Sidebar/Sidebar';
 
 function Navbar() {
   return (
     <div className='navbar'>
 {/* Sidebar */}
+<Sidebar/>
 <div className="wrapper">
-    <div>
-    <span>Adrian Abreu Garcia</span>
-    </div>
+    <motion.span initial={{opacity:0, scale:0.5}}  animate={{opacity:1, scale:1}} transition={{duration:0.5}}>Adrian Abreu Garcia</motion.span>
     <div className='social'>
         <MDBBtn
             floating
