@@ -1,21 +1,17 @@
 import React from 'react';
 
 import './app.scss'
-import './App.css';
 
-import HomePage from './components/HomePage/HomePage';
+import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 
 
 
 const App = () => (
   <div>
-    <section id='HomePage'>
-<Navbar/>
-    </section>
-    <section >
-   <HomePage/>
-    </section>
+    <section id='Homepage'> <Navbar/>
+    <Home/>
+     </section>
     <section id='About'>About</section>
     <section id='Services'>Services</section>
     <section id='Gallery'>Gallery</section>
