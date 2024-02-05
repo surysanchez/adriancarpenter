@@ -4,10 +4,7 @@ import "./Sidebar.scss";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-function Sidebar() {
-  const [open, setOpen] = useState(false);
-
-  const variants = {
+const variants = {
     open: {
       clipPath: "circle(1200px at 50px 50px)",
       transition: {
@@ -25,6 +22,10 @@ function Sidebar() {
       },
     },
   };
+  
+function Sidebar() {
+  const [open, setOpen] = useState(false);
+
 
   return (
     <motion.div className="sidebar" animate={open ? "open" : "closed"}>
