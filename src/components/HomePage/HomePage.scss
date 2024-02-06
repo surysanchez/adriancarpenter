@@ -9,8 +9,37 @@
     max-width: 1366px;
     height: 100%;
     margin: auto;
-    padding-left: 45px;
-    padding-top: 50px;
+    padding-left: 35px;
+}
+
+.textContainer{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+ }
+
+h4{
+    font-size: 25px;
+    color: rebeccapurple;
+}
+h2{
+    font-size: 35px;
+}
+
+.buttons{
+    button{
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+        cursor: pointer;
+    }
+
 }
 
  .imageContainer{
@@ -18,10 +47,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding-right: 15px;
-    
+    padding-right: 35px;
  }
-    
+
    img{
     height: 300px;
     
