@@ -14,7 +14,7 @@
 
 .textContainer{
     width: 40%;
-    height: 70%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,22 +36,31 @@ h2{
         border-radius: 10px;
         background-color: transparent;
         color: white;
-        margin: 15px;
+        margin-right: 15px;
         cursor: pointer;
     }
 
 }
 
+img{
+ height: 380px;
+ 
+}
  .imageContainer{
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
     padding-right: 35px;
+    padding-top: 15px;
  }
 
-   img{
-    height: 300px;
-    
-   }
+ .slidingTextContainer{
+    position: absolute;
+    font-size: 40vh;
+    bottom: -90px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 60%;
+ }
 }

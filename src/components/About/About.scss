@@ -1,0 +1,28 @@
+.about{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: linear-gradient(-90deg, #1f1f50, #0c0c1d);
+    position: absolute;
+    margin: auto;
+    
+
+ 
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pcontainer{
+        
+
+    }
+
+    p{
+        margin: 25px 25px 0px 25px;
+        position: relative;
+        color: orangered;
+        border: 1px dashed white;
+        border-radius: 40px;
+        padding: 10px;
+    }
+}
