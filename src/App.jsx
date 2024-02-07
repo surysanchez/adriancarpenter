@@ -14,11 +14,11 @@ const App = () => (
     <section id='Homepage'> <Navbar/>
     <HomePage/>
      </section>
+    <section id='Services'>
+      <Parallax type="about" />
+    </section>
     <section id='About'>
       <About/>
-    </section>
-    <section id='Services'>
-      <Parallax type="services" />
     </section>
     <section> <Services/> </section>
     <section id='Gallery'>
