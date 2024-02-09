@@ -1,28 +1,37 @@
 .about{
-    height: calc(100vh - 100px);
-    overflow: hidden;
-    background: linear-gradient(-90deg, #1f1f50, #0c0c1d);
-    position: absolute;
-    margin: auto;
-    
-
+    background-image: url('/assets/About.png');
  
-    h1{
-        display: flex;
-        justify-content: center;
-    }
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+   
 
-    .pcontainer{
-        
-
-    }
-
-    p{
-        margin: 25px 25px 0px 25px;
-        position: relative;
-        color: orangered;
+h1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    // color: white;
+   
+}
+.text{
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    
+}
+ p{
+    background: linear-gradient(180deg, #111132, #505064);
+        margin: 35px 35px 10px 35px;
+        color: rgb(255, 87, 25);
         border: 1px dashed white;
+        font-size: large;
         border-radius: 40px;
         padding: 10px;
+        width: 90%;
+        height: 90%;
+        letter-spacing: 2px;
     }
 }

@@ -13,8 +13,8 @@
 }
 
 .textContainer{
-    width: 40%;
-    height: 80%;
+    width: 50%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,8 +51,10 @@ img{
     position: absolute;
     top: 0;
     right: 0;
-    padding-right: 35px;
     padding-top: 15px;
+    padding-right: 35px;
+    // padding-right: 75px;
+    // padding-top: 85px;
  }
 
  .slidingTextContainer{

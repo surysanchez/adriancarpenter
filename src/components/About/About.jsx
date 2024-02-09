@@ -1,24 +1,13 @@
 import "./About.scss";
-import {motion} from "framer-motion"
+// import {motion} from "framer-motion"
 
-const textVariants = {
-    initial: {
-      x: -500,
-      opacity: 0,
-    },
-    animate: {
-      x: 0,
-      opacity: 1,
-      transition:{
-        duration: 1.5,
-        staggerChildren: 0.1,
-      }
-    },}
+
 export default function About() {
   return (
-    <motion.div className="about" variants={textVariants}>
-      <motion.h1 variants={textVariants}>About Me</motion.h1>
-      <div className="pcontainer">
+    <div className="about">
+      <h1>About Me</h1>
+       <div className='aboutPic'></div>
+      <div className='text'>
       <p>
         With over 8 years of carpentry experience, I am a passionate and
         dedicated craftsman originally from Cuba. My woodworking journey began
@@ -29,7 +18,7 @@ export default function About() {
         to bring your woodworking visions to life with the dedication and
         passion that define my craft.
       </p>
-      <br />
+   
       <p>
         {" "}
         Con más de 8 años de experiencia en carpintería, soy un artesano
@@ -42,6 +31,6 @@ export default function About() {
         carpintería con la dedicación y pasión que definen mi oficio.
       </p>
       </div>
-    </motion.div>
+    </div>
   );
 }
