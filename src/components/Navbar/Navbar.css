@@ -3,9 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: var(--color-black);
-    background: linear-gradient(180deg, #111132, #505064); */
-    background: linear-gradient(180deg, #0c0c1d, #111132);
+    /* background: linear-gradient(180deg, #0c0c1d, #111132); */
 
     padding: 1rem 2rem;
 }
@@ -14,11 +12,15 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-right: 3%;
 }
 
 .app__navbar-logo img {
     width: 150px;
 }
+/* .navbarName{
+    padding-left: 10px;
+} */
 
 .app__navbar-links {
     flex: 1;
@@ -38,17 +40,7 @@
     color: var(--color-grey);
 }
 
-.app__navbar-login {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
-.app__navbar-login a {
-    margin: 0 1rem;
-    text-decoration: none;
-    transition: .5s ease;
-}
 
 .app__navbar-login a:hover {
     border-bottom: 1px solid var(--color-golden);
@@ -62,6 +54,7 @@
 
 .app__navbar-smallscreen {
     display: none;
+    margin-right: 15px;
 }
 
 .app__navbar-smallscreen_overlay {
@@ -123,13 +116,14 @@
 @media screen and (max-width: 650px) {
     .app__navbar {
         padding: 1rem;
+        justify-content: space-evenly;
     }
 
-    .app__navbar-login {
-        display: none;
-    }
 
     .app__navbar-logo img {
-        width: 110px;
+        width: 90px;
+    }
+    .navbarName{
+        padding-left: 10px;
     }
 }

@@ -9,6 +9,7 @@ import {
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
+import {motion} from "framer-motion"
 
 import { FooterOverlay} from '../../components';
 import { images } from '../../constants';
@@ -45,20 +46,18 @@ const Footer = () => {
   
  
   return (
-  <div className="app__footer section__padding" id="login">
-    <FooterOverlay />
+  <div className="app__footer section__padding">
 
     <div className="app__footer-links">
-      <div className="app__footer-links_contact">
+      {/* <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact me</h1>
-        <p className="p__opensans"></p>
-        <h4 className='p__cormorant ' > phone number </h4>
+        <motion.span className='navbarName' style={{letterSpacing:'5px', color:'orangered'}} initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>Adrian Abreu Garcia</motion.span>
+        <h4 className='p__cormorant ' > 786-793-3403</h4>
         <p className="p__opensans" style={{textTransform:'lowercase'}}>gmail...</p>
-      </div>
+      </div> */}
 
       <div className="app__footer-links_logo">
         <img src={images.adrianlogo} style={{borderRadius:'15%'}} alt="footer_logo" />
-        {/* <p className="p__opensans">&quot;&quot;</p> */}
         <p></p>
         <img src={images.saw} className="saw__img" style={{ marginTop: 15 }} alt='spoon'/>
   

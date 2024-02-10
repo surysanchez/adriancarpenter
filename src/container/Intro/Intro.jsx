@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {BsFillPlayFill, BsPauseFill} from 'react-icons/bs';
 
-import {mealvideo} from  '../../constants';
+import {videoWork} from  '../../constants';
 
 import './Intro.css';
 
@@ -22,7 +22,7 @@ const Intro = () => {
   return (
   <div className='app__video'>
     <video 
-    // src={mealvideo}
+    src={videoWork}
     ref={vidRef}
     type='video/mp4'
     Loop

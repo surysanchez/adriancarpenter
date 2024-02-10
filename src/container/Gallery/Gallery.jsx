@@ -21,17 +21,17 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id='gallery'>
       <div className="app__gallery-content">
         <SubHeading title="Follow our work" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of my works</p>
-        <p>Thank you for supporting and trusting my small business, professional pictures are comming soon.</p>
-        <button type="button" className="custom__button">
+        {/* <p>Thank you for supporting and trusting my small business, new professional pictures are comming soon.</p> */}
+        {/* <button type="button" className="custom__button">
           <a  href="" target="_blank"
                   rel="noopener noreferrer"
                   alt="ig" >View More</a>
-        </button>
+        </button> */}
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
@@ -40,7 +40,8 @@ const Gallery = () => {
               <img src={image} alt="gallery_image" /> <a  href="" target="_blank"
                   rel="noopener noreferrer"
                   alt="ig" >
-              <BsInstagram className="gallery__image-icon" /> </a>
+              {/* <BsInstagram className="gallery__image-icon" />  */}
+              </a>
             </div>
           ))}
         </div>

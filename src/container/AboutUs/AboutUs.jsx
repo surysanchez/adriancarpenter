@@ -1,20 +1,37 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-
+import {motion} from "framer-motion"
 import "./AboutUs.css";
 import { images } from "../../constants";
 
+const textVariants = {
+  initial: {
+    x: -500,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition:{
+      duration: 1.5,
+      staggerChildren: 0.1,
+    }
+  },}
 const AboutUs = () => (
   <div
-    className="app__aboutus app__bg flex__center section__padding"
+    className="app__aboutus flex__center section__padding"
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
     </div>
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Me</h1>
+        <motion.h1 className="headtext__cormorant" variants={textVariants}>About Me</motion.h1>
         <img src={images.saw} alt="saw" className="saw__img" />
+        <motion.div className="textContainer" variants={textVariants} 
+        initial="initial" animate="animate">
+            <motion.h2 variants={textVariants}>I'm a skilled and experienced Carpenter</motion.h2>
+       </motion.div>
         <p className="p__opensans" style={{ textTransform: "none" }}>
    
         With over 8 years of carpentry experience, I am a passionate and

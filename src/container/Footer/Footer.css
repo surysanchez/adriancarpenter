@@ -7,8 +7,6 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-
-    background: var(--color-black);
     padding-top: 0;
 }
 
@@ -31,7 +29,7 @@
 }
 
 .app__footer-links_logo img:first-child {
-    width: 210px;
+    width: 180px;
     margin-bottom: 0.75rem;
     justify-content: center;
     margin-left: 45px;
@@ -95,7 +93,7 @@
     .app__footer-links_logo,
     .app__footer-links_work {
         margin: 2rem 0;
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -107,6 +105,6 @@
 
 @media screen and (max-width: 350px) {
     .app__footer-links_logo img:first-child {
-        width: 80%;
+        width: 70%;
     }
 }

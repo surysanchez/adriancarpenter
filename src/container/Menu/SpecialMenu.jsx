@@ -42,7 +42,7 @@ const SpecialMenu = () => {
     <Accordion >
       <Accordion.Item eventKey="0">
         <Accordion.Header>Show More</Accordion.Header>
-        <Accordion.Body className='container-menu-img'>
+        <Accordion.Body  className='container-menu-img'>
           <img className='menu-img' src={images.servicesmenu} alt= 'servicesmenu' />
         </Accordion.Body>
         </Accordion.Item>

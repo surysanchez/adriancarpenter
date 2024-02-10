@@ -2,40 +2,40 @@
 
 const residentialWorks = [
   {
-    title: 'Custom Doors',
+    title: '✅ Installation of CUSTOM DOORS',
   },
   {
-    title: 'Baseboards'},
+    title: '✅ Construction of BASEBOARDS'},
   {
-    title: 'Laminated Floors'},
+    title: '✅ Fabrication of LAMINATED FLOORS'},
   {
-    title: 'Vynil Floors',
+    title: '✅ Creation & Installation of VINYL FLOORS',
   },
   {
-    title: 'NFD Floors',
+    title: '✅ Installation of NFD FLOORSs',
   },
   {
-    title: 'Remodeling Services'
+    title: '✅ REMODELING SERVICES'
   }
 ];
 
 const OtherCustomWorks = [
   {
-    title: 'Kitchen',
+    title: '✅ Fabrication & Installation of KITCHEN CABINETS',
   },
   {
-    title: "Cabinets & Closets",
+    title: "✅ Creation  & Installation of CLOSETS",
   },
   {
-    title: 'Bathroom',
+    title: '✅ BATHROOM REMODELING',
   },
   {
-    title: 'Drywall',  },
+    title: '✅ Construction of DRYWALL',  },
   {
-    title: 'Vanity',
+    title: '✅ Fabrication & Installation of VANITIES',
   },
   {
-    title: 'Fences',
+    title: '✅ Construction & Installation of FENCES',
   },
 ];
 

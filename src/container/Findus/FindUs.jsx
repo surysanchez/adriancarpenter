@@ -7,20 +7,21 @@ import {BiWindowClose} from "react-icons/bi";
 import {IoMdCall} from "react-icons/io";
 
 const FindUs = () => {
-  const [showForm, setShowForm] = useState(true);
+  const [showForm, setShowForm] = useState(false);
   return (
    
-  <div className="app__bg app__wrapper section__padding " id="contact">
+  <div className=" app__wrapper section__padding " id="contact">
     <div className="app__wrapper_info">
       <SubHeading title="Getting in touch" />
     
-      <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Find Us</h1>
-      <h2 className='p__cormorant ' style={{ marginBottom: '1rem' }} > < IoMdCall /> Phone number </h2>
+      <h1 className="headtext__cormorant" style={{lineHeight: '60px', fontSize: '45px'}} >Contact me with any questions or to get a Free Quote</h1>
+      <div className='phoneNumber'>
+      <h2 className='p__cormorant ' > English : 786-793-3403 </h2>
+      <h2 className='p__cormorant ' > Spanish : 786-793-3403 </h2>
+      </div>
       <div className="app__wrapper-content">
-        <p className="p__opensans">Location available soon !!!</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Hours of Operation</p>
-        <p className="p__opensans">Mon - Fri: 10:00 am - 10:00 pm</p>
-        <p className="p__opensans">Sat - Sun: 10:00 am - 10:00 am</p>
+        <p className="p__opensans">Mon - Fri: 9:30 am - 5:30 pm</p>
         
       </div>
       <button type="button" className="custom__button" style={{ marginTop: '2rem' }} onClick={() => setShowForm(!showForm)}> 
@@ -28,8 +29,7 @@ const FindUs = () => {
       </button>
       {showForm && <form
             className="flex ml-4 flex-col max-w-[600px] h-full w-full mb-4 "
-            action="https://getform.io/f/dfebe42a-5c9d-4a8a-bcd2-487a68af6c5f"
-            method="POST"
+            action="https://getform.io/f/8f6f0338-89a0-41dd-8284-f7b888e82cc8" method="POST"
             target="_blank"
             rel="noopener noreferrer"
           > 
@@ -52,6 +52,13 @@ const FindUs = () => {
               placeholder="Email"
               required
             />
+            <input
+              className="my-6 p-2 rounded-md border-2 border-[#605022] "
+              type="phone"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
            
             <input
               className="my-4 p-8  border-2 border-[#605022] rounded-md"
@@ -72,9 +79,6 @@ const FindUs = () => {
 
     </div>
 
-    <div className="app__wrapper_img">
-      <img src={images.adrianlogo} alt="adrianlogo_img" />
-    </div>
   </div>
 )
   }

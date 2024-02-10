@@ -1,4 +1,4 @@
-import './HomePage.scss'
+import './Header.scss'
 import {motion} from "framer-motion"
 import images from '../../constants/images';
 import { LuArrowDownNarrowWide } from "react-icons/lu";
@@ -40,7 +40,7 @@ const sliderVariants = {
   },
 }
 
-function HomePage() {
+function Header() {
   return (
     <div className='home'>
         <div className="wrapper">
