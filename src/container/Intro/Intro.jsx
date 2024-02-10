@@ -22,7 +22,7 @@ const Intro = () => {
   return (
   <div className='app__video'>
     <video 
-    src={mealvideo}
+    // src={mealvideo}
     ref={vidRef}
     type='video/mp4'
     Loop

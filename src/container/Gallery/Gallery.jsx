@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 
-const galleryImages = [images.friedfish, images.seashrimp, images.tender, images.sandwich];
+const galleryImages = [images.beforeAter, images.floor2, images.beforeAter2, images.floor];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -23,11 +23,12 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
+        <SubHeading title="Follow our work" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of our clients favarites!!!</p>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Some of my works</p>
+        <p>Thank you for supporting and trusting my small business, professional pictures are comming soon.</p>
         <button type="button" className="custom__button">
-          <a  href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
+          <a  href="" target="_blank"
                   rel="noopener noreferrer"
                   alt="ig" >View More</a>
         </button>
@@ -36,7 +37,7 @@ const Gallery = () => {
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
-              <img src={image} alt="gallery_image" /> <a  href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
+              <img src={image} alt="gallery_image" /> <a  href="" target="_blank"
                   rel="noopener noreferrer"
                   alt="ig" >
               <BsInstagram className="gallery__image-icon" /> </a>

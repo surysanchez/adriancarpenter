@@ -7,19 +7,20 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const SpecialMenu = () => {
   return (
-  <div className='app__specialMenu flex__center section__padding' id='menu' >
+  <div className='app__specialMenu flex__center section__padding' id='services' >
     <div className='app__specialMenu-title'>
       <SubHeading title="Check the type of work I do"  />
      <h1 className='headtext__cormorant'>Services</h1>
+     <div  className='app__specialMenu-menu_heading'> Custom Professional Work  </div>
     </div>
 
                                       
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine flex__center">
-        <p className="app__specialMenu-menu_heading">Most Popular Fried or Grilled </p>
+        {/* <p className="app__specialMenu-menu_heading"> Custom Professional Work </p> */}
         <div className="app__specialMenu_menu_items">
-        {data.friedfishes.map((friedfish, index) => (
-            <MenuItem key={friedfish.title + index} title={friedfish.title} price={friedfish.price}  />
+        {data.residentialWorks.map((residentialWork, index) => (
+            <MenuItem key={residentialWork.title + index} title={residentialWork.title} price={residentialWork.type}  />
           ))}
         </div>
       </div>
@@ -29,10 +30,10 @@ const SpecialMenu = () => {
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Sandwiches</p>
+        {/* <p className="app__specialMenu-menu_heading">Professional Work</p> */}
         <div className="app__specialMenu_menu_items">
-          {data.sandwiches.map((sandwich, index) => (
-            <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
+          {data.OtherCustomWorks.map((OtherCustomWork, index) => (
+            <MenuItem key={OtherCustomWork.title + index} title={OtherCustomWork.title} tags={OtherCustomWork.tags} />
           ))}
         </div>
       </div>

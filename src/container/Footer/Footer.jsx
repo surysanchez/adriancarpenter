@@ -50,17 +50,17 @@ const Footer = () => {
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contact Us</h1>
+        <h1 className="app__footer-headtext">Contact me</h1>
         <p className="p__opensans"></p>
-        <h4 className='p__cormorant ' >(786)-547-1341 </h4>
-        <p className="p__opensans" style={{textTransform:'lowercase'}}>tastymaria@gmail.com</p>
+        <h4 className='p__cormorant ' > phone number </h4>
+        <p className="p__opensans" style={{textTransform:'lowercase'}}>gmail...</p>
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.logotasty} style={{borderRadius:'15%'}} alt="footer_logo" />
+        <img src={images.adrianlogo} style={{borderRadius:'15%'}} alt="footer_logo" />
         {/* <p className="p__opensans">&quot;&quot;</p> */}
         <p></p>
-        <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} alt='spoon'/>
+        <img src={images.saw} className="saw__img" style={{ marginTop: 15 }} alt='spoon'/>
   
 <MDBFooter className='text-center text-white app__footer-links_icons' >
       <MDBContainer className='p-4 pb-0'>
@@ -98,7 +98,7 @@ const Footer = () => {
             floating
             className='m-1'
             style={{ backgroundColor: '#ac2bac' }}
-            href="https://www.instagram.com/tasty_maria/?igshid=YTQwZjQ0NmI0OA%3D%3D" target="_blank"
+            href="" target="_blank"
             rel="noopener noreferrer"
             alt="ig"
             role='button'
@@ -112,17 +112,11 @@ const Footer = () => {
     </MDBFooter>
       </div>
 
-      <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">12:00pm - 12:00am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">12:00pm - 12:00 am</p>
-      </div>
+      
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans"> Tasty Maria &copy; 2023 All Rights reserved.</p>
+      <p className="p__opensans"> AdrianAbreuGarcia &copy; 2024 All Rights reserved.</p>
     </div>
     <MDBBtn
         onClick={backToTop}

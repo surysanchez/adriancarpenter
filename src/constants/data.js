@@ -1,80 +1,44 @@
-import images from './images';
 
-const friedfishes = [
+
+const residentialWorks = [
   {
-    title: 'shrimp',
-    price: '$13',
+    title: 'Custom Doors',
   },
   {
-    title: 'Fish',
-    price: '$15',
+    title: 'Baseboards'},
+  {
+    title: 'Laminated Floors'},
+  {
+    title: 'Vynil Floors',
   },
   {
-    title: 'Shrimp and Chicken',
-    price: '$15',
+    title: 'NFD Floors',
   },
   {
-    title: 'Chicken',
-    price: '$15',
+    title: 'Remodeling Services'
+  }
+];
+
+const OtherCustomWorks = [
+  {
+    title: 'Kitchen',
   },
   {
-    title: 'Seafood Mix',
-    price: '$17',
+    title: "Cabinets & Closets",
   },
   {
-    title: 'Whole Fish',
-    price: '$19',
+    title: 'Bathroom',
+  },
+  {
+    title: 'Drywall',  },
+  {
+    title: 'Vanity',
+  },
+  {
+    title: 'Fences',
   },
 ];
 
-const sandwiches = [
-  {
-    title: 'Minuta (Fish) Sandwich',
-    price: '$11',
-  },
-  {
-    title: "Tuna Maria",
-    price: '$12',
-  },
-  {
-    title: 'Phili Steak ',
-    price: '$13',
-  },
-  {
-    title: 'OG Cuban Panini',
-    price: '12',
-  },
-  {
-    title: 'Teriyaki Chicken Sandwich',
-    price: '$10',
-  },
-  {
-    title: 'Shrimp Slider',
-    price: '$11',
-  },
-];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { friedfishes, sandwiches, awards };
+export default { residentialWorks, OtherCustomWorks };

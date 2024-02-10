@@ -6,18 +6,13 @@ import about from '../assets/about.png';
 import carpenter from '../assets/carpenterhome.jpeg';
 import services1 from '../assets/services1.jpg'
 import servicesmenu from '../assets/services-menu.png'
-import knife from '../assets/knife.png';
-import tastymenu from '../assets/tastymenu.JPG';
+import beforeAter from '../assets/beforeAfter.png'
+import beforeAter2 from '../assets/beforeAfter2.png'
+import floor from '../assets/floor.jpg'
+import floor2 from '../assets/floor2.jpg'
 import overlaybg from '../assets/overlaybg.png';
-import menu from '../assets/menu.png';
-import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.JPG';
-import sandwich from '../assets/sandwich.JPG';
-import tender from '../assets/tender.JPG';
-import friedshrimp from '../assets/friedshrimp.jpeg';
-import friedfish from '../assets/friedfish.jpeg';
-import shrimp from '../assets/friedshrimp.jpeg';
-import seashrimp from '../assets/seashrimp.JPG';
+
 
 
 import quote from '../assets/quote.png';
@@ -31,17 +26,11 @@ export default {
   carpenter,
   services1,
   servicesmenu,
-  knife,
-  tastymenu,
+  beforeAter,
+  beforeAter2,
+  floor,
+  floor2,
   overlaybg,
-  menu,
-  welcome,
   findus,
-  sandwich,
-  tender,
-  friedfish,
-  friedshrimp,
-  shrimp,
-  seashrimp,
   quote,
 };
