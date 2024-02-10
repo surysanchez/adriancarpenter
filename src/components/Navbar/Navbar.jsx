@@ -1,64 +1,56 @@
-import './Navbar.scss'
+
+import React from 'react';
 import {motion} from "framer-motion"
-import {
-    MDBIcon,
-    MDBBtn
-  } from 'mdb-react-ui-kit';
-import Sidebar from '../Sidebar/Sidebar';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdCarpenter } from "react-icons/md";
+import images from '../../constants/images';
+import './Navbar.css';
 
-function Navbar() {
+const itemsVariants= {
+  open: {
+   y: 0,
+   opacity: 1,
+ },
+ closed: {
+   y: 50,
+   opacity: 0,
+  }
+ }
+
+const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <div className='navbar'>
-{/* Sidebar */}
-<Sidebar/>
-<div className="wrapper">
-    <motion.span style={{letterSpacing:'5px', color:'orangered'}} initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>Adrian Abreu Garcia</motion.span>
-    <div className='social'>
-        <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#ac2bac' }}
-            href="" target="_blank"
-            rel="noopener noreferrer"
-            alt="ig"
-            role='button'
-          >
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            href="" target="_blank"
-            rel="noopener noreferrer"
-            alt="facebook"
-            role='button'
-          >
-            <MDBIcon fab icon='facebook' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#000000' }}
-            href=""
-            rel="noopener noreferrer"
-            alt="tiktok"
-            role='button'
-          >
-            <MDBIcon fab icon='tiktok' />
-          </MDBBtn>
-    </div>
-</div>
-    </div>
-  )
-}
+    <nav className="app__navbar">
+      <div className="app__navbar-logo">
+      <img src={images.adrianlogo} style={{borderRadius:'15%'}} alt="app logo" />
+      </div>
+      <motion.span style={{letterSpacing:'5px', color:'orangered'}} initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>Adrian Abreu Garcia</motion.span>
+      <motion.ul className="app__navbar-links" initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>
+        <li className="p__opensans"><a href="#home">Home</a></li>
+        <li className="p__opensans"><a href="#about">About Me</a></li>
+        <li className="p__opensans"><a href="#menu">Services</a></li>
+        <li className="p__opensans"><a href="#contact">Contact</a></li>
+      </motion.ul>
+        <a href="#contact" className="p__opensans">Free Quote</a>
+      <div className="app__navbar-smallscreen">
+        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+        {toggleMenu && (
+          <motion.div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+            {/* <span> <img src={images.togglebtn} alt="" className="overlay__close" onClick={() => setToggleMenu(false)} /></span> */}
+            <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>
+            <MdCarpenter fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
+            </motion.span >
+            <ul className="app__navbar-smallscreen_links" variants={itemsVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
+              <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
+              <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
+              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Services</a></li>
+              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
+            </ul>
+          </motion.div>
+        )}
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
