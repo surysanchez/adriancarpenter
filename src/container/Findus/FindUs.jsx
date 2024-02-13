@@ -16,11 +16,12 @@ const FindUs = () => {
     
       <h1 className="headtext__cormorant" style={{lineHeight: '60px', fontSize: '45px'}} >Contact me with any questions or to get a Free Quote</h1>
       <div className='phoneNumber'>
-      <h2 className='p__cormorant ' > English : 786-793-3403 </h2>
+      <h2 className='p__cormorant ' > English : 786-223-6581 </h2>
       <h2 className='p__cormorant ' > Spanish : 786-793-3403 </h2>
-      </div>
+      </div><p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Gmail</p>
+      <h4>adrian4u1972@gmail.com</h4>
       <div className="app__wrapper-content">
-        <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Hours of Operation</p>
+        <p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Hours of Operation</p>
         <p className="p__opensans">Mon - Fri: 9:30 am - 5:30 pm</p>
         
       </div>

@@ -13,7 +13,7 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Gallery />
-    <Intro />
+    {/* <Intro /> */}
     <FindUs />
     {/* <Contact/> */}
     <Footer/>

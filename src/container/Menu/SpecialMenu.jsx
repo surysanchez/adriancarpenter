@@ -26,7 +26,7 @@ const SpecialMenu = () => {
       </div>
 
       <div className="app__specialMenu-menu_img">
-        <img src={images.services1} alt="services img" />
+        <img src={images.servicesCollage} alt="services img" />
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
@@ -39,14 +39,14 @@ const SpecialMenu = () => {
       </div>
     </div>
 
-    <Accordion >
+    {/* <Accordion >
       <Accordion.Item eventKey="0">
         <Accordion.Header>Show More</Accordion.Header>
         <Accordion.Body  className='container-menu-img'>
           <img className='menu-img' src={images.servicesmenu} alt= 'servicesmenu' />
         </Accordion.Body>
         </Accordion.Item>
-       </Accordion>
+       </Accordion> */}
 
    
    

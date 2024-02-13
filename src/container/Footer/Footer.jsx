@@ -46,9 +46,10 @@ const Footer = () => {
   
  
   return (
-  <div className="app__footer section__padding">
-
-    <div className="app__footer-links">
+    
+    <>
+    <div className="app__footer">
+    {/* <div className="app__footer-links"> */}
       {/* <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact me</h1>
         <motion.span className='navbarName' style={{letterSpacing:'5px', color:'orangered'}} initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>Adrian Abreu Garcia</motion.span>
@@ -112,7 +113,7 @@ const Footer = () => {
       </div>
 
       
-    </div>
+    {/* </div> */}
 
     <div className="footer__copyright">
       <p className="p__opensans"> AdrianAbreuGarcia &copy; 2024 All Rights reserved.</p>
@@ -131,7 +132,8 @@ const Footer = () => {
         size='sm'>
         <MDBIcon fas icon="arrow-up" />
       </MDBBtn>
-  </div>
+   </div>
+      </>
 )};
 
 export default Footer;
