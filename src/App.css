@@ -78,10 +78,10 @@ body{
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
+  margin-top: 20px;
 }
 
 .p__opensans {
@@ -114,6 +114,9 @@ body{
   margin-top: 25px;
 }
 
+
+
+  
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {

@@ -4,7 +4,8 @@ import saw  from '../assets/saw.png'
 import parallax from '../assets/parallax.jpg';
 import about from '../assets/about.png';
 import carpenter from '../assets/carpenterhome.jpeg';
-import services1 from '../assets/services1.jpg'
+import services1 from '../assets/services1.jpg';
+import reviewPic from '../assets/reviewPic.jpeg';
 import servicesCollage from '../assets/servicesCollage.png'
 import servicesmenu from '../assets/services-menu.png'
 import beforeAter from '../assets/beforeAfter.png'
@@ -26,6 +27,7 @@ export default {
   about,
   carpenter,
   services1,
+  reviewPic,
   servicesCollage,
   servicesmenu,
   beforeAter,

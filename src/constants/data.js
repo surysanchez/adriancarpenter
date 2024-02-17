@@ -39,6 +39,28 @@ const OtherCustomWorks = [
   },
 ];
 
+const reviewItems = [
+  {
+  name: 'Alberto Delgado',
+  description: 'Adrian hizo un trabajo increible con mi casa. Instalo todos los cabinetes nuevo de la cocina y quedaron espectaculares.',
+  img: 'https://cdn.pixabay.com/photo/2020/05/23/05/57/man-5208156_1280.jpg'
+  },
+  {
+  name: '',
+  description: '',
+  img: ''
+  },
+  {
+  name: '',
+  description: '',
+  img: ''
+  },
+  {
+  name: '',
+  description: '',
+  img: ''
+  },
+]
 
 
-export default { residentialWorks, OtherCustomWorks };
+export default { residentialWorks, OtherCustomWorks, reviewItems };

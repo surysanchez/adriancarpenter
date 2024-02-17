@@ -1,10 +1,11 @@
 import React from 'react';
-
-
-import { AboutUs, FindUs, Footer, Gallery, Header, Intro, SpecialMenu } from './container';
-import { Navbar } from './components';
 import './App.css';
-import Contact from './container/Contact/Contact';
+
+import { AboutUs, FindUs, Footer, Gallery, Header, SpecialMenu } from './container';
+import { Navbar,CreateReviews } from './components';
+import ReviewsPage from './container/ReviewsPage/ReviewsPage';
+
+// import Contact from './container/Contact/Contact';
 
 const App = () => (
   <div>
@@ -15,6 +16,8 @@ const App = () => (
     <Gallery />
     {/* <Intro /> */}
     <FindUs />
+    <ReviewsPage/>
+    {/* <CreateReviews/> */}
     {/* <Contact/> */}
     <Footer/>
   </div>
