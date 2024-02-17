@@ -4,7 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import {images, data} from '../../constants';
-import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import ReviewDetails from '../ReviewDetails/ReviewDetails.jsx';
 
 
 function ReviewsPage() {
