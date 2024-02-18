@@ -14,6 +14,19 @@ import floor from '../assets/floor.jpg'
 import floor2 from '../assets/floor2.jpg'
 import overlaybg from '../assets/overlaybg.png';
 import findus from '../assets/findus.JPG';
+import portrait1 from '../assets/portrait1.jpeg'
+import portrait2 from '../assets/portrait2.jpeg'
+import portrait3 from '../assets/portrait3.jpeg'
+import portrait4 from '../assets/portrait4.jpeg'
+import man1 from '../assets/man1.jpeg'
+import man2 from '../assets/man2.jpeg'
+import man3 from '../assets/man3.jpeg'
+import man4 from '../assets/man4.jpeg'
+import closet from '../assets/closet.jpg'
+import woodCabinet from '../assets/woodcabinets.jpeg'
+import floorpic from '../assets/floorpic.jpeg'
+
+
 
 
 
@@ -37,4 +50,15 @@ export default {
   overlaybg,
   findus,
   quote,
+  portrait1,
+  portrait2,
+  portrait3,
+  portrait4,
+  man1,
+  man2,
+  man3,
+  man4,
+  closet,
+  woodCabinet,
+  floorpic,
 };

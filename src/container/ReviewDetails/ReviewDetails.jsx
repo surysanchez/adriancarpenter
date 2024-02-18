@@ -1,12 +1,16 @@
 import React from 'react'
 
 function ReviewDetails({reviewDetail}) {
-    const {name, description, img} = reviewDetail;
+    const {name,title, description, img} = reviewDetail;
     console.log("reviewDetail" + reviewDetail)
     return (
         <div className="item">
+           
             <div className="shadow-effect">
-                <img className="img-circle" src={img} />
+                {/* Ternary: {score > 90 ? "A" : "B or less"}</li> */}
+            {img === '' ? <i class="fa-solid fa-image-portrait fa-2xl" ></i> : <img className="img-circle" src={img}  />}
+
+                <h4 style={{color: 'orangered'}} className='p__opensans'>{title}</h4>
                 <p>{description}</p>
             </div>
             <div className="review-name">

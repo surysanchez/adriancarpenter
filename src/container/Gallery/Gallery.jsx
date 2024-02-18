@@ -5,7 +5,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 
-const galleryImages = [images.beforeAter, images.floor2, images.beforeAter2, images.floor];
+const galleryImages = [images.beforeAter, images.servicesCollage,images.floor2 ,images.floorpic , images.beforeAter2, images.floor, images.closet];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

@@ -114,8 +114,6 @@ body{
   margin-top: 25px;
 }
 
-
-
   
 @media screen and (min-width: 2000px) {
   .custom__button,
@@ -192,11 +190,3 @@ body{
   }
 }
 
-@mixin mobile {
-  
-
-  }
-
-  @media (max-width: 738px) {
-
-  }

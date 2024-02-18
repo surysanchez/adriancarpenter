@@ -25,10 +25,26 @@ function ReviewsPage() {
         0: {
             items: 1
         },
+       
         600: {
-            items: 3
+            items: 1
+        },
+        650: {
+            items: 2
+        },
+        700: {
+            items: 2
+        },
+        850: {
+            items: 2
         },
         1000: {
+            items: 2
+        },
+        1500: {
+            items: 2
+        },
+        2000: {
             items: 3
         }
     }
@@ -53,17 +69,15 @@ function ReviewsPage() {
                             </div>
                             <div className="review-name">
                                 <h5>Rony</h5>
+                               
                             </div>
                         </div> :
                        data.reviewItems.map(reviewDetail => {
                         return (
                             <ReviewDetails reviewDetail={reviewDetail} key={reviewDetail._key} />
                         )
-                       })
-                            
-                    }         
-                        
-                        
+                       })    
+                    }          
                     </OwlCarousel> 
             </div>
           </div>

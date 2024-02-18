@@ -49,71 +49,16 @@ const Footer = () => {
     
     <>
     <div className="app__footer">
-    {/* <div className="app__footer-links"> */}
-      {/* <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contact me</h1>
-        <motion.span className='navbarName' style={{letterSpacing:'5px', color:'orangered'}} initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:1}}>Adrian Abreu Garcia</motion.span>
-        <h4 className='p__cormorant ' > 786-793-3403</h4>
-        <p className="p__opensans" style={{textTransform:'lowercase'}}>gmail...</p>
-      </div> */}
-
+   
       <div className="app__footer-links_logo">
-        <img src={images.adrianlogo} style={{borderRadius:'15%'}} alt="footer_logo" />
+        <img src={images.adrianlogo} className='footer__logo' style={{borderRadius:'15%'}} alt="footer_logo" />
         <p></p>
         <img src={images.saw} className="saw__img" style={{ marginTop: 15 }} alt='spoon'/>
   
-<MDBFooter className='text-center text-white app__footer-links_icons' >
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          {/* <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#3b5998' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn> */}
-
-          {/* <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#55acee' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn> */}
-
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn
-            floating
-            className='m-1'
-            style={{ backgroundColor: '#ac2bac' }}
-            href="" target="_blank"
-            rel="noopener noreferrer"
-            alt="ig"
-            role='button'
-          >
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-    
-        </section>
-      </MDBContainer>
-    </MDBFooter>
       </div>
 
       
-    {/* </div> */}
+  
 
     <div className="footer__copyright">
       <p className="p__opensans"> AdrianAbreuGarcia &copy; 2024 All Rights reserved.</p>
