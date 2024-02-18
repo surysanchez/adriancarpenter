@@ -62,13 +62,13 @@ const reviewItems = [
   name: 'Carlos',
   title: ' Clear Communication, Timely Service',
   description: 'Working with Adrian on my home upgrade was smooth. Clear communication and on-time delivery, with just a few minor hiccups. Overall, a great job!',
-  img: `${images.portrait3}`,
+  img: `${images.man2}`,
   },
   {
   name: 'Sophia',
   title: 'Experto y Preciso',
   description: 'Fue genial en mi proyecto de renovación. Buena comunicación y todo a tiempo. La calidad superó mis expectativas.',
-  img: `${images.man2}`,
+  img: `${images.portrait3}`,
   },
   {
   name: 'Martha',
