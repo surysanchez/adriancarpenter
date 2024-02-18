@@ -45,7 +45,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2rem;
 }
 
@@ -81,7 +80,7 @@ body{
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .p__opensans {
@@ -121,6 +120,10 @@ body{
     font-size: 37px;
     line-height: 67px;
   }
+  /* .app__wrapper_info{
+    margin-top: 0;
+
+  } */
 
   .p__opensans {
     font-size: 30px;

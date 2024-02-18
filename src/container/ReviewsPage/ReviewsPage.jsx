@@ -30,7 +30,7 @@ function ReviewsPage() {
             items: 1
         },
         650: {
-            items: 2
+            items: 1
         },
         700: {
             items: 2
@@ -45,7 +45,7 @@ function ReviewsPage() {
             items: 2
         },
         2000: {
-            items: 3
+            items: 2
         }
     }
 };
@@ -53,11 +53,11 @@ function ReviewsPage() {
   return (
     <section id='review' className='reviews pt-70 pb-70'>
         <div className='container mt-5'>
-            <h4 className='miniTitle text-center headtext__cormorant'>REVIEWS </h4>
+            <h4 className='miniTitle text-center headtext__cormorant ' >REVIEWS </h4>
             <div className='text-center'>
-                <h3 className='sectionTitle p__cormorant' > What are clients are saying?</h3>
+                <h3 className='sectionTitle p__cormorant' style={{fontSize: 'xx-large'}} > What clients are saying?</h3>
             </div>
-            <p className='text-center p__opensans'> I appreciate honest feedback and it would be great to know your experience working with me. Contact me for more information about my work.</p>
+            <p className='text-center'> I appreciate honest feedback and it would be great to know your experience working with me. Contact me for more information about my work.</p>
           <div className='row'>
             <div className='col-md-12'>
                 <OwlCarousel id='clients-reviews' className='owl-carousel owl-theme' {...options}>
