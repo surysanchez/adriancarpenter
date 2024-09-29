@@ -35,8 +35,20 @@ import kitchen4 from '../assets/kitchen4.jpeg'
 import kitchen5 from '../assets/kitchen5.jpeg'
 import kitchen6 from '../assets/kitchen6.jpeg'
 import kitchen7 from '../assets/kitchen7.jpeg'
-
-
+import kitchenfinish from '../assets/kitchenfinish.jpeg'
+import stair1 from '../assets/stairs1.jpeg'
+import stair2 from '../assets/stairs2.jpeg'
+import cabinet1 from '../assets/cabinet1.jpeg'
+import cabinet2 from '../assets/cabinet2.jpeg'
+import cabinet3 from '../assets/cabinet3.jpeg'
+import cabinet4 from '../assets/cabinet4.jpeg'
+import celing5 from '../assets/ceiling5.jpeg'
+import celing6 from '../assets/ceiling6.jpeg'
+import ceiling7 from '../assets/ceiling7.jpeg'
+import celingC from '../assets/ceilingcollage.jpg'
+import store1 from '../assets/store1.jpg'
+import store2 from '../assets/store2.jpg'
+import modern1 from '../assets/modern1.webp'
 
 
 
@@ -81,4 +93,18 @@ export default {
   kitchen5,
   kitchen6,
   kitchen7,
+  kitchenfinish,
+  stair1,
+  stair2,
+  cabinet1,
+  cabinet2,
+  cabinet3,
+  cabinet4,
+  celing5,
+  celing6,
+  ceiling7,
+  celingC,
+  store1,
+  store2,
+  modern1,
 };

@@ -5,9 +5,11 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 
-const galleryImages = [images.beforeAter, images.servicesCollage,images.floor2 ,images.floorpic , images.beforeAter2, images.floor, images.closet]
-const galleryNewImages = [images.kitchen0,images.kitchen00,images.kitchen1, images.kitchen2,images.kitchen3, images.kitchen4, images.kitchen5,images.kitchen6,images.kitchen7,
-];
+const galleryImages = [images.store2, images.kitchen0,images.kitchen00,images.kitchen1, images.kitchen2,images.kitchen3, images.kitchen4, images.kitchen5,images.kitchen6,images.kitchen7,images.kitchenman, images.kitchenfinish,
+  images.cabinet1, images.cabinet2, images.cabinet3,
+   images.beforeAter, images.servicesCollage,images.floor2 ,images.floorpic , images.beforeAter2, images.floor, images.closet]
+// const galleryNewImages = [images.kitchen0,images.kitchen00,images.kitchen1, images.kitchen2,images.kitchen3, images.kitchen4, images.kitchen5,images.kitchen6,images.kitchen7,
+// ];
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -53,9 +55,9 @@ const Gallery = () => {
         </div>
       </div>
 
-      {/* // New grid */}
+   
 
-      <h4 className="headtext__cormorant">Recent Work!</h4>
+      {/* <h4 className="headtext__cormorant">Recent Work!</h4>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryNewImages.map((Newimage, index) => (
@@ -63,7 +65,7 @@ const Gallery = () => {
               <img src={Newimage} alt="gallery_image" /> <a  href="" target="_blank"
                   rel="noopener noreferrer"
                   alt="ig" >
-              {/* <BsInstagram className="gallery__image-icon" />  */}
+              <BsInstagram className="gallery__image-icon" /> 
               </a>
             </div>
           ))}
@@ -71,9 +73,8 @@ const Gallery = () => {
         <div className="app__gallery-images_arrows">
           <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />
           <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
-        </div>
+        </div> */}
       </div>
-    </div>
   );
 };
 

@@ -12,10 +12,17 @@ const Header = () => {
       <MDBCarouselItem itemId={1}>
         <img src={images.carpenter} style={{height: "55vh"}} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
+      
       <MDBCarouselItem itemId={2}>
-        <img  src={images.about}  style={{height: "55vh"}} className='d-block w-100' alt='...' />
+        <img  src={images.modern1}  style={{height: "55vh"}} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
       <MDBCarouselItem itemId={3}>
+        <img  src={images.about}  style={{height: "55vh"}} className='d-block w-100' alt='...' />
+      </MDBCarouselItem>
+      <MDBCarouselItem itemId={4}>
+        <img  src={images.store1}  style={{height: "55vh"}} className='d-block w-100' alt='...' />
+      </MDBCarouselItem>
+      <MDBCarouselItem itemId={5}>
         <img   src={images.parallax} style={{height: "55vh"}} className='d-block w-100' alt='...' />
       </MDBCarouselItem>
     </MDBCarousel>
